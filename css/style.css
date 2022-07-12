@@ -34,7 +34,7 @@ header {
 .action.button {
 
     padding: 10px;
-    /* margin: 20px; */
+    margin-left: 20px;
     /* border: 1px solid black; */
     border-radius: 20px;
     border: none;
@@ -172,4 +172,13 @@ footer {
     height: 450px;
     width: calc(100%/4);
     border: 1px solid white;
+}
+
+.table {
+
+    width: 500px;
+}
+
+tr {
+    align-items: center;
 }
