@@ -34,10 +34,15 @@ header {
 .action.button {
 
     padding: 10px;
-    margin: 20px;
-    border: 1px solid black;
+    /* margin: 20px; */
+    /* border: 1px solid black; */
     border-radius: 20px;
+    border: none;
 
+}
+
+.login.action.button {
+    margin-bottom: 60px;
 }
 
 .flex.navigation.row {
@@ -100,6 +105,17 @@ a {
 
 .flex.section.row {}
 
+.blue {
+    background-color: #8EA1E1;
+    color: white;
+
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
 
 
 .logo {
@@ -111,9 +127,7 @@ a {
 
 }
 
-.big.button {
-    align-self: flex-end;
-}
+
 
 .container>main {
     height: 3800px;
@@ -151,6 +165,7 @@ footer {
 
 .flex.footer.row {
     justify-content: space-between;
+    padding-top: 20px;
 }
 
 .container.social-media {
