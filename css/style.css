@@ -16,7 +16,42 @@ body {
 
 header {
     height: 620px;
-    background-color: #3161E0;
+    background-color: #255EE9;
+    color: white;
+
+}
+
+.large.container {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    height: 520px;
+
+}
+
+.action.button {
+
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+
+}
+
+.flex.navigation.row {
+    height: 100px;
+    justify-content: space-around;
+
+}
+
+.flex.content.column {
+    height: 200px;
+    padding: 100px 400px;
+    align-items: center;
+    text-align: center;
+}
+
+.flex.button.row {
+    justify-content: center;
+    padding: 50px;
 }
 
 .flex {
@@ -44,20 +79,9 @@ header {
     background-color: #F6F6F6;
 }
 
-.flex.navigation.row {
-    height: 100px;
-    justify-content: space-around;
-
-}
-
-.content {
-    height: 200px;
-    padding: 100px 200px;
-    align-items: center;
-    text-align: center;
 
 
-}
+
 
 .logo {
     align-self: flex-start;
