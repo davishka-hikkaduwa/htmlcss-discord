@@ -14,32 +14,49 @@ body {
     flex-basis: 100vh;
 }
 
+/* header */
+
 header {
     height: 620px;
     background-color: #255EE9;
     color: white;
+    padding-top: 20px;
 
 }
 
 .large.container {
     background-image: url("../img/jumbo.png");
     background-size: cover;
-    height: 520px;
+    height: 500px;
 
 }
 
 .action.button {
 
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     border: 1px solid black;
 
 }
 
 .flex.navigation.row {
+
     height: 100px;
     justify-content: space-around;
 
+
+}
+
+.flex.menu.row {
+
+    width: 500px;
+    justify-content: space-evenly;
+    align-self: flex-start;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 .flex.content.column {
@@ -77,9 +94,10 @@ header {
 .flex.section.row-reverse,
 .flex.section.column-reverse {
     background-color: #F6F6F6;
+
 }
 
-
+.flex.section.row {}
 
 
 
@@ -104,10 +122,14 @@ header {
 
 .section {
     flex-basis: 950px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 100px 200px;
     align-items: center;
     justify-content: center;
+    /* border-image-source: url("../img/wave.svg");
+    border-image-width: 5;
+    border-image-slice: 5;
+    border-image-repeat: repeat; */
 }
 
 
