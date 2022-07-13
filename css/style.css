@@ -103,7 +103,6 @@ a {
 
 }
 
-.flex.section.row {}
 
 .blue {
     background-color: #8EA1E1;
@@ -159,7 +158,7 @@ a {
 footer {
     height: 670px;
     padding: 35px 200px;
-    background-color: black;
+    background-color: #23272A;
     color: white;
 }
 
